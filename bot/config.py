@@ -33,7 +33,7 @@ class Config:
             self.BOT_TOKEN = config("BOT_TOKEN")
             self.CACHE_DL = config("CACHE_DL", default=False, cast=bool)
             self.CAP_DECO = config("CAP_DECO", default="◉")
-            self.C_LINK = config("C_LINK", default="@ANi_MiNE")
+            self.C_LINK = config("C_LINK", default="@THECIDANIME")
             self.CMD_SUFFIX = config("CMD_SUFFIX", default=str())
             self.COMP_MODE = config("COMPATIBILITY_MODE", default=True, cast=bool)
             self.CUSTOM_RENAME = config("CUSTOM_RENAME", default=None)
@@ -75,7 +75,7 @@ class Config:
             self.QBIT_PORT = config("QBIT_PORT", default=8090, cast=int)
             self.QBIT_PORT2 = config("QBIT_PORT2", default=9090, cast=int)
             self.QBIT_TIMEOUT = config("QBIT_TIMEOUT", default=20, cast=int)
-            self.RELEASER = config("RELEASER", default="A-M|ANi-MiNE")
+            self.RELEASER = config("RELEASER", default="HD")
             self.REPORT_FAILED = config("REPORT_FAILED", default=True, cast=bool)
             self.REPORT_FAILED_DL = config("REPORT_FAILED_DL", default=False, cast=bool)
             self.REPORT_FAILED_ENC = config(
